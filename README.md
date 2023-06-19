@@ -2,7 +2,7 @@
 
 The OpenAI Node.js library provides convenient access to the OpenAI API from Node.js applications. Most of the code in this library is generated from our [OpenAPI specification](https://github.com/openai/openai-openapi).
 
-> ⚠️ **Important note: this library is meant for server-side usage only, as using it in client-side browser code will expose your secret API key. [See here](https://platform.openai.com/docs/api-reference/authentication) for more details.**
+> ⚠️ **Important note: this library is meant for server-side usage only, as using it in client-side browser code will expose your secret API key. [See here](https://platform.openai-sb.com/docs/api-reference/authentication) for more details.**
 
 ## Installation
 
@@ -12,7 +12,7 @@ npm install openai
 
 ## Usage
 
-The library needs to be configured with your account's secret key, which is available in your [OpenAI account page](https://platform.openai.com/account/api-keys). We recommend setting it as an environment variable. Here's an example of initializing the library with the API key loaded from an environment variable and creating a completion:
+The library needs to be configured with your account's secret key, which is available in your [OpenAI account page](https://platform.openai-sb.com/account/api-keys). We recommend setting it as an environment variable. Here's an example of initializing the library with the API key loaded from an environment variable and creating a completion:
 
 ```javascript
 const { Configuration, OpenAIApi } = require("openai");
@@ -29,7 +29,7 @@ const chatCompletion = await openai.createChatCompletion({
 console.log(chatCompletion.data.choices[0].message);
 ```
 
-Check out the [full API documentation](https://platform.openai.com/docs/api-reference?lang=node.js) for examples of all the available functions.
+Check out the [full API documentation](https://platform.openai-sb.com/docs/api-reference?lang=node.js) for examples of all the available functions.
 
 ### Request options
 
