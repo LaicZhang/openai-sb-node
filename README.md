@@ -1,3 +1,5 @@
+# Modified based on openai
+This is a modified version of the openai library. It is modified to work with the OpenAI-SB API. The new README is below.
 # OpenAI Node.js Library
 
 The OpenAI Node.js library provides convenient access to the OpenAI API from Node.js applications. Most of the code in this library is generated from our [OpenAPI specification](https://github.com/openai/openai-openapi).
