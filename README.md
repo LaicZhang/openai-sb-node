@@ -1,5 +1,16 @@
 # Modified based on openai
-This is a modified version of the openai library. It is modified to work with the OpenAI-SB API. The new README is below.
+~~This is a modified version of the openai library. It is modified to work with the OpenAI-SB API. The new README is below.~~
+
+Now, openai has provided a powerful dependency library [openai](https://www.npmjs.com/package/openai), which can directly transmit the base Url parameter to directly access `openai-sb.com`
+
+```ts
+import OpenAI from 'openai';
+
+const openai = new OpenAI({
+  baseURL: 'https://api.openai-sb.com/v1',
+});
+```
+
 # OpenAI Node.js Library
 
 The OpenAI Node.js library provides convenient access to the OpenAI API from Node.js applications. Most of the code in this library is generated from our [OpenAPI specification](https://github.com/openai/openai-openapi).
